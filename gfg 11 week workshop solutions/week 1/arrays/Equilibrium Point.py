@@ -1,22 +1,4 @@
-# User function Template for python3
-
-# Complete this function
-
-
-# def equilibriumPoint(A, N):
-#     # Your code here
-#     if N==1:
-#         return 1
-#     else:
-#         for i in range(1,N):
-#             left = sum(A[0:i])
-#             right = sum(A[i+1:])
-#             # print(left,right)
-#             if  left == right:
-#                 return i+1
-#         else:
-#             return -1
-
+# Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. For example, in an array A: 
 def equilibriumPoint(arr, N):
     # finding the sum of whole array
     total_sum = sum(arr)
